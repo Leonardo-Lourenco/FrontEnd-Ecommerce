@@ -1,0 +1,120 @@
+@media screen and (max-width:1280px) {
+    #subheader p {
+        margin-left: 10px;
+    }
+    #subheader a {
+        margin-right: 10px;
+    }
+    #search {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #logo {
+        margin-top: -5px;
+    }
+    #search {
+        width: 500px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .search-area {
+        width: 500px;
+    }
+    #user-menu {
+        width: 200px;
+    }
+    #user-menu li {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #subheader a {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    #logo{
+        width: 130px;
+        margin-top: 10px;
+    }
+    #ist{
+        font-size: 25px;
+    }
+    #iist{
+        font-size: 20px;
+    }
+    #search{
+        width: 350px;
+    }
+    .search-area{
+        width: 350px;
+        height: 40px;
+    }
+    .search-btn{height: 40px;}
+    #user-menu{margin-top: 15px;}
+    
+    .menu-togglr{
+        display: block;
+    }
+    
+    #navigation{
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #navigation nav{
+        float: none;
+        margin: 0 auto;
+        width: 100%:
+    }
+    #mainav a{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid black;
+        margin: 0 !important;
+        padding: 10px;
+    }
+    #mainav{
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #subheader p {
+        display: none;
+    }
+    #subheader {
+        padding-bottom: 10px;
+    }
+
+@media screen and (max-width:360px) {
+    #subheader a {
+        font-size: 12px;
+    }
+    #logo{width: 70px;}
+    #ist{font-size: 15px;}
+    #iist{font-size: 12px;}
+    #search{width: 100px;}
+    .search-area{
+        width: 170px;
+        height:25px;
+    }
+    .search-btn{
+        height: 25px;
+        font-size: 10px;
+        width: 60px;
+        margin-left: -60px;
+    }
+    #user-menu{
+        width: 100px;
+        margin-top: 10px;
+    }
+    #user-menu li{
+        font-size: 15px;
+        width: 70px;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+}
